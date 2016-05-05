@@ -9,170 +9,181 @@
 
 # names etc... 
 
-/title/s/[Mm]etropolis/\{M\}etropolis/p
-/title/s/[Hh]asting/\{H\}asting/p 
-/title/s/[Gg]ibb/\{G\}ibb/p
-/title/s/[mM]arkov/\{M\}arkov/p
-/title/s/[Bb]lackwell/\{B\}lackwell/p
-/title/s/[Ff]isher/\{F\}isher/p
-/title/s/[Cc]ox/\{C\}ox/p
-/title/s/[Pp]oisson/\{P\}oisson/p 
-/title/s/[Ll]aplace/\{L\}aplace/p 
-/title/s/[Gg]auss/\{G\}auss/p
-/title/s/[Kk]ullback/\{K\}ullback/p
-/title/s/[Ll]iebler/\{L\}iebler/p 
-/ title/s/[Bb]ayes/\{B\}ayes/p
-/title/s/[Dd]irichlet/\{D\}irichlet/p 
-/title/s/[Pp]otts/\{P\}otts/p
-/title/s/[Rr]iemann/\{R\}iemann/p
-/title/s/[Ii]sing/\{I\}sing/p 
-/title/s/[Ww]eibull/\{W\}eibull/p
-/title/s/[Bb]ox/\{B\}ox/p
-/title/s/[Bb]erry-[Ee]sseen/\{B\}erry-\{E\}sseen/p
-/title/s/[Ee]dgeworth/\{E\}dgeworth/p 
-/title/s/[Gg]ini/\{G\}ini/p
-/title/s/[Kk]aplan-[Mm]eier/\{K\}aplan-\{M\}eier/p 
-/title/s/[Vv]apnik/\{V\}apnik/p
-/title/s/[Cc]hervonenkis/\{C\}hervonenkis/p 
-/title/s/[Vv][Cc]/\{VC\}/p 
-/title/s/Dvoretzky-Kiefer-Wolfowitz/\{D\}voretzky-\{K\}iefer-\{W\}olfowitz/p
-/title/s/[Pp]areto/\{P\}areto/p
-/title/s/[Kk]hintchine/\{K\}hintchine/p
-/title/s/[Nn]elson-[Aa]alen/\{N\}elson-\{A\}alen/p
-/title/s/[Bb]oole/\{B\}oole/p
-/title/s/[Jj]enkins/\{J\}enkins/p
-/title/s/[Ll]orenz/\{L\}orenz/p
-/title/s/[Cc]obb/\{C\}obb/p
-/title/s/[Dd]ouglas/\{D\}ouglas/p
-/title/s/[Zz]ipf/\{Z\}ipf/p
-/title/s/[Ww]ald/\{W\}ald/p
-/title/s/[Rr]icard/\{R\}icard/p
-/title/s/[Tt]auberian/\{T\}auberian/p
-/title/s/[hH]uber/\{H\}uber/p
-/title/s/[Ww]hite/\{W\}hite/p
-/title/s/ [Ss]tein/\ {S\}tein/p
-/title/s/-[Ss]tein/\-{S\}tein/p
-/title/s/[Pp]itman/\{P\}itman/p
-/title/s/[Hh]otelling/\{H\}otelling/p
-/title/s/[Bb]rownian/\{B\}rownian/p
-/title/s/[Ss]amuelson/\{S\}amuelson/p
-/title/s/[Cc]hernoff/\{C\}hernoff/p
-/title/s/[Oo]rnstein/\{O\}rnstein/p
-/title/s/[Uu]hlenbeck/\{U\}hlenbeck/p
-/title/s/[wW]ielandt/\{W\}ielandt/p
-/title/s/[Bb]un[yi]ako[wv]sky/\{B\}uniakovski/p
-/title/s/[Cc]hernoff/\{C\}hernoff/p
-/title/s/[Cc]auchy/\{C\}auchy/p
-/title/s/[Ss]chwarz/\{S\}chwarz/p
-/title/s/[Cc]ramer/\{C\}ramer/p
-/title/s/[Rr]ao/\{R\}ao/p
-/title/s/[Cc]hen/\{C\}hen/p
-/title/s/[Cc]hen/\{C\}hen/p
-/title/s/[Kk]antorovich/\{K\}antorovich/p
-/title/s/[Ll]aguerre/\{L\}aguerre/p
-/title/s/[Dd]antzig/\{D\}antzig/p
+/title/s/[Mm]etropolis/\{M\}etropolis/
+/title/s/[Hh]asting/\{H\}asting/ 
+/title/s/[Gg]ibb/\{G\}ibb/
+/title/s/[mM]arkov/\{M\}arkov/
+/title/s/[Bb]lackwell/\{B\}lackwell/
+/title/s/[Ff]isher/\{F\}isher/
+/title/s/[Cc]ox/\{C\}ox/
+/title/s/[Pp]oisson/\{P\}oisson/ 
+/title/s/[Ll]aplace/\{L\}aplace/ 
+/title/s/[Gg]auss/\{G\}auss/
+/title/s/[Kk]ullback/\{K\}ullback/
+/title/s/[Ll]iebler/\{L\}iebler/ 
+/ title/s/[Bb]ayes/\{B\}ayes/
+/title/s/[Dd]irichlet/\{D\}irichlet/ 
+/title/s/[Pp]otts/\{P\}otts/
+/title/s/[Rr]iemann/\{R\}iemann/
+/title/s/[Ii]sing/\{I\}sing/ 
+/title/s/[Ww]eibull/\{W\}eibull/
+/title/s/[Bb]ox/\{B\}ox/
+/title/s/[Bb]erry/\{B\}erry/
+/title/s/[Ee]sseen/\{E\}sseen/
+/title/s/[Ee]dgeworth/\{E\}dgeworth/ 
+/title/s/[Gg]ini/\{G\}ini/
+/title/s/[Kk]aplan-[Mm]eier/\{K\}aplan-\{M\}eier/ 
+/title/s/[Vv]apnik/\{V\}apnik/
+/title/s/[Cc]hervonenkis/\{C\}hervonenkis/ 
+/title/s/[Vv][Cc]/\{VC\}/ 
+/title/s/Dvoretzky-Kiefer-Wolfowitz/\{D\}voretzky-\{K\}iefer-\{W\}olfowitz/
+/title/s/[Pp]areto/\{P\}areto/
+/title/s/[Kk]hintchine/\{K\}hintchine/
+/title/s/[Nn]elson-[Aa]alen/\{N\}elson-\{A\}alen/
+/title/s/[Bb]oole/\{B\}oole/
+/title/s/[Jj]enkins/\{J\}enkins/
+/title/s/[Ll]orenz/\{L\}orenz/
+/title/s/[Cc]obb/\{C\}obb/
+/title/s/[Dd]ouglas/\{D\}ouglas/
+/title/s/[Zz]ipf/\{Z\}ipf/
+/title/s/[Ww]ald/\{W\}ald/
+/title/s/[Rr]icard/\{R\}icard/
+/title/s/[Tt]auberian/\{T\}auberian/
+/title/s/[hH]uber/\{H\}uber/
+/title/s/[Ww]hite/\{W\}hite/
+/title/s/ [Ss]tein/\ {S\}tein/
+/title/s/-[Ss]tein/\-{S\}tein/
+/title/s/[Pp]itman/\{P\}itman/
+/title/s/[Hh]otelling/\{H\}otelling/
+/title/s/[Bb]rownian/\{B\}rownian/
+/title/s/[Ss]amuelson/\{S\}amuelson/
+/title/s/[Cc]hernoff/\{C\}hernoff/
+/title/s/[Oo]rnstein/\{O\}rnstein/
+/title/s/[Uu]hlenbeck/\{U\}hlenbeck/
+/title/s/[wW]ielandt/\{W\}ielandt/
+/title/s/[Bb]un[yi]ako[wv]sky/\{B\}uniakovski/
+/title/s/[Cc]hernoff/\{C\}hernoff/
+/title/s/[Cc]auchy/\{C\}auchy/
+/title/s/[Ss]chwarz/\{S\}chwarz/
+/title/s/[Cc]ramer/\{C\}ramer/
+/title/s/[Rr]ao/\{R\}ao/
+/title/s/[Cc]hen/\{C\}hen/
+/title/s/[Cc]hen/\{C\}hen/
+/title/s/[Kk]antorovich/\{K\}antorovich/
+/title/s/[Ll]aguerre/\{L\}aguerre/
+/title/s/[Dd]antzig/\{D\}antzig/
 
 # algorithm names/initialisms etc... 
 
-/title/s/[Mm][Mm] [Aa]lgorithm/\{MM\} Algorithm/p
-/title/s/[Ee][Mm] [Aa]lgorithm/\{EM\} Algorithm/p 
-/title/s/[Mm]onte [cC]arlo/\{M\}onte \{C\}arlo/p 
-/title/s/[Mm]onte-[Cc]arlo/\{M\}onte-\{C\}arlo/p
+/title/s/[Mm][Mm] [Aa]lgorithm/\{MM\} Algorithm/
+/title/s/[Ee][Mm] [Aa]lgorithm/\{EM\} Algorithm/ 
+/title/s/[Mm]onte [cC]arlo/\{M\}onte \{C\}arlo/ 
+/title/s/[Mm]onte-[Cc]arlo/\{M\}onte-\{C\}arlo/
 
 # model and algorithm acronyms and initialisms that are so prevalent as to be stand alones 
 
-/title/s/[Gg][Ll][Mm]/\{GLM\}/p
-/title/s/[gg][Ll][Mm]/\{GLMM\}/p
-/title/s/[Mm][Ll][Ee]/\{MLE\}/p
-/title/s/[Mm][Cc][Ee][Mm]/\{MCEM\}/p
-/title/s/[Ee][Cc][Mm]/\{ECM\}/p 
-/title/s/[Mm][Cc][Mm][Cc]/\{MCMC\}/p
-/title/s/[Ee][Cc][Mm][Ee]/\{ECME\}/p 
-/title/s/ EM/ \{EM\}/p
-/title/s/ HMM/ \{HMM\}/p 
-/title/s/[Ll][Dd][Aa]/\{LDA\}/p
-/title/s/[Aa][Bb][Cc]/\{ABC\}/p
-/title/s/[Aa][Ii][Cc]/\{AIC\}/p 
-/title/s/[Bb][Ii][Cc]/\{BIC\}/p 
-/title/s/[Cc][Ii][Cc]/\{CIC\}/p 
-/title/s/[Cc][Ll][Tt]/\{CLT\}/p 
-/title/s/[Ll][Ii][Ll]/\{LIL\}/p 
-/ title/s/ [Rr][Oo][Cc]/ \{ROC\}/p 
-/title/s/[Cc][Aa][Rr][Tt]/\{CART\}/p
-/title/s/[Ss][Vv][Mm]/\{SVM\}/p 
-/ title/s/ [Cc][Ee][Ss]/ \{CES\}/p 
-/title/s/[Kk][Nn][Nn]/\{kNN\}/p 
-/title/s/[Gg][Mm][Mm]/\{GMM\}/p
-/title/s/[Gg][Ee][Ee]/\{GEE\}/p
+/title/s/[Gg][Ll][Mm]/\{GLM\}/
+/title/s/[gg][Ll][Mm]/\{GLMM\}/
+/title/s/[Mm][Ll][Ee]/\{MLE\}/
+/title/s/[Mm][Cc][Ee][Mm]/\{MCEM\}/
+/title/s/[Ee][Cc][Mm]/\{ECM\}/ 
+/title/s/[Mm][Cc][Mm][Cc]/\{MCMC\}/
+/title/s/[Ee][Cc][Mm][Ee]/\{ECME\}/ 
+/title/s/ EM/ \{EM\}/
+/title/s/ HMM/ \{HMM\}/ 
+/title/s/[Ll][Dd][Aa]/\{LDA\}/
+/title/s/[Aa][Bb][Cc]/\{ABC\}/
+/title/s/[Aa][Ii][Cc]/\{AIC\}/ 
+/title/s/[Bb][Ii][Cc]/\{BIC\}/ 
+/title/s/[Cc][Ii][Cc]/\{CIC\}/ 
+/title/s/[Cc][Ll][Tt]/\{CLT\}/ 
+/title/s/ LIL/ \{LIL\}/ 
+/title/s/ lil/ \{LIL\}/ 
+/ title/s/ [Rr][Oo][Cc]/ \{ROC\}/ 
+/title/s/[Cc][Aa][Rr][Tt]/\{CART\}/
+/title/s/[Ss][Vv][Mm]/\{SVM\}/ 
+/ title/s/ [Cc][Ee][Ss]/ \{CES\}/ 
+/title/s/[Kk][Nn][Nn]/\{kNN\}/ 
+/title/s/[Gg][Mm][Mm]/\{GMM\}/
+/title/s/[Gg][Ee][Ee]/\{GEE\}/
 
 # added names need to check against bibtex file 
 
-/title/s/[Jj]ensen/\{J\}ensen/p
-/title/s/[Hh]older/\{H\}older/p
-/title/s/[Cc]hebyshev/\{C\}hebyshev/p 
-/title/s/[Tt]schebysheff/\{T\}schebysheff/p
-/title/s/[Hh]wang/\{H\}wang/p 
-/title/s/[Vv]ysochanskii/\{V\}ysochanskii/p
-/title/s/[Pp]etunin/\{P\}etunin/p
-/title/s/[mM]inkowski/\{M\}inkowski/p
-/title/s/[Bb]orel/\{B\}orel/p
-/title/s/[Tt]weedie/\{T\}weedie/p
-/title/s/[Pp]earson/\{P\}earson/p
-/title/s/[Bb]ernoulli/\{B\}ernoulli/p
-/title/s/[Gg]osset/\{G\}osset/p
-/title/s/[Ss]tudent/\{S\}tudent/p
-/title/s/[Bb]onferroni/\{B\}onferroni/p
-/title/s/[Bb]enjamini/\{B\}enjamini/p
-/title/s/[Hh]ochberg/\{H\}ochberg/p 
-/title/s/[Gg]alton/\{G\}alton/p 
-/title/s/[Ww]atson/\{W\}atson/p
-/title/s/[Ee]rdos/\{E\}rdos/p
-/title/s/[Rr]enyi/\{R\}enyi/p 
-/title/s/[Kk]aramata/\{K\}aramata/p 
-/title/s/[Uu]spensky/\{U\}spensky/p 
-/title/s/[Mm]onge/\{M\}onge/p 
-/title/s/[Ss]lepian/\{S\}lepian/p
-/title/s/[Dd]antzig/\{D\}antzig/p
-/title/s/[Kk]olmogorov/\{K\}olmogorov/p
-/title/s/[Ss]mirnov/\{S\}mirnov/p
-/title/s/[Ss]pearman/\{S\}pearman/p 
-/title/s/[Ll]illiefors/\{L\}illiefors/p 
-/title/s/[Kk]endall/\{K\}endall/p 
-/title/s/[Hh]ardy/\{H\}ardy/p 
-/title/s/[Aa]nderson/\{A\}nderson/p
-/title/s/[Dd]arling/\{D\}arling/p
-/title/s/[Jj]acobi/\{J\}acobi/p
-/title/s/[Dd]oob/\{D\}oob/p
-/title/s/[Bb]ahadur/\{B\}ahadur/p
-/title/s/[Kk]uiper/\{K\}uiper/p
-/title/s/[Vv]on [Mm]ises/\{V\}on \{M\}ises/p
-/title/s/[Ss]heffer/\{S\}heffer/p
-/title/s/[Dd]empster/\{D\}empster/p
-/title/s/[Ss]hafer/\{S\}hafer/p
+/title/s/[Jj]ensen/\{J\}ensen/
+/title/s/[Hh]older/\{H\}older/
+/title/s/[Cc]hebyshev/\{C\}hebyshev/ 
+/title/s/[Tt]schebysheff/\{T\}schebysheff/
+/title/s/[Hh]wang/\{H\}wang/ 
+/title/s/[Vv]ysochanskii/\{V\}ysochanskii/
+/title/s/[Pp]etunin/\{P\}etunin/
+/title/s/[mM]inkowski/\{M\}inkowski/
+/title/s/[Bb]orel/\{B\}orel/
+/title/s/[Tt]weedie/\{T\}weedie/
+/title/s/[Pp]earson/\{P\}earson/
+/title/s/[Bb]ernoulli/\{B\}ernoulli/
+/title/s/[Gg]osset/\{G\}osset/
+/title/s/[Ss]tudent/\{S\}tudent/
+/title/s/[Bb]onferroni/\{B\}onferroni/
+/title/s/[Bb]enjamini/\{B\}enjamini/
+/title/s/[Hh]ochberg/\{H\}ochberg/ 
+/title/s/[Gg]alton/\{G\}alton/ 
+/title/s/[Ww]atson/\{W\}atson/
+/title/s/[Ee]rdos/\{E\}rdos/
+/title/s/[Rr]enyi/\{R\}enyi/ 
+/title/s/[Kk]aramata/\{K\}aramata/ 
+/title/s/[Uu]spensky/\{U\}spensky/ 
+/title/s/[Mm]onge/\{M\}onge/ 
+/title/s/[Ss]lepian/\{S\}lepian/
+/title/s/[Dd]antzig/\{D\}antzig/
+/title/s/[Kk]olmogorov/\{K\}olmogorov/
+/title/s/[Ss]mirnov/\{S\}mirnov/
+/title/s/[Ss]pearman/\{S\}pearman/ 
+/title/s/[Ll]illiefors/\{L\}illiefors/ 
+/title/s/[Kk]endall/\{K\}endall/ 
+/title/s/[Hh]ardy/\{H\}ardy/ 
+/title/s/[Aa]nderson/\{A\}nderson/
+/title/s/[Dd]arling/\{D\}arling/
+/title/s/[Jj]acobi/\{J\}acobi/
+/title/s/[Dd]oob/\{D\}oob/
+/title/s/[Bb]ahadur/\{B\}ahadur/
+/title/s/[Kk]uiper/\{K\}uiper/
+/title/s/[Vv]on [Mm]ises/\{V\}on \{M\}ises/
+/title/s/[Ss]heffer/\{S\}heffer/
+/title/s/[Dd]empster/\{D\}empster/
+/title/s/[Ss]hafer/\{S\}hafer/
+/title/s/[Bb]runn/\{B\}runn/
+/title/s/[Yy]oung/\{Y\}oung/
+/title/s/[Ww]ilk/\{W\}ilk/
+/title/s/[Ss]hapiro/\{S\}hapiro/
+/title/s/[Hh]amilton/\{H\}amilton/
+
+
+#/title/s/[Cc]ram\{\\’e\}r/{C\}ram\{\’e\}r/
+
 
 #also may want to look at scraping names from the website 
-#http://www.york.ac.uk/depts/maths/histstat/people
+#http://www.york.ac.uk/depts/maths/histstat/eople
 
 
 
 # more specific statistics stuff 
 
-/title/s/[Mm]-[Ee]stimate/\{M\}-Estimate/p 
-/title/s/[Uu]-[Ss]tatistic/\{U\}-Statistic/p 
-/title/s/[Uu] [Ss]tatistic/\{U\} Statistic/p
-/title/s/[Vv]-[Ss]tatistic/\{V\}-Statistic/p 
-/title/s/[Vv] [Ss]tatistic/\{V\} Statistic/p
-/title/s/[Zz]-[Ss]tatistic/\{Z\}-Statistic/p
-/title/s/[Zz] [Ss]tatistic/\{Z\} Statistics/p 
+/title/s/[Mm]-[Ee]stimate/\{M\}-Estimate/ 
+/title/s/[Uu]-[Ss]tatistic/\{U\}-Statistic/ 
+/title/s/[Uu] [Ss]tatistic/\{U\} Statistic/
+/title/s/[Vv]-[Ss]tatistic/\{V\}-Statistic/ 
+/title/s/[Vv] [Ss]tatistic/\{V\} Statistic/
+/title/s/[Zz]-[Ss]tatistic/\{Z\}-Statistic/
+/title/s/[Zz] [Ss]tatistic/\{Z\} Statistics/ 
   
 # countries and major cities 
-/title/s/[Mm]adrid/\{M\}adrid/p
-/title/s/[Ss]pain/\{S\}pain/p
-/title/s/ US / \{US\} /p
+/title/s/[Mm]adrid/\{M\}adrid/
+/title/s/[Ss]pain/\{S\}pain/
+/title/s/ US / \{US\} /
 
 # punctuation rules 
 
-# /title/s/: [A-Za-z] /\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!/p 
+# /title/s/: [A-Za-z] /\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!/ 
 # still need to figure out how to take what is matched and pass that through to what comes #out on the RHS, i.e. what is substituted in so that e.g. if we match `: A’ then we pass #`: \{A\}’ if the letter is instead `T’ after the space then we pass `: \{T\}’ to the #output. but how to do this in the regex??
 
 #NOTE: if you have multiple occurrences of the same matching character string to 
