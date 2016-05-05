@@ -1,0 +1,119 @@
+o# this file contains a list of notes for the common 
+# words, initialisms, and acronyms that should be 
+# capitalized within a statistics bibtex file 
+
+[x]MM Algorithm 
+[x]EM algorithm 
+[x]MCMC 
+[x]ECM 
+[x]ECME 
+[x]Metropolis
+[x]Hastings
+[x]Monte Carlo 
+[x]Markov 
+[x]Weibull 
+[x]Fisher 
+[x]Poisson 
+[x]Gauss
+[x]Kullback 
+[x]Liebler 
+[x]Laplace 
+[x]Bayes 
+[x]MCEM
+[x]MLE 
+[x]GLM 
+[x]GLMM 
+[x]Gibbs 
+[x]HMM 
+[x]Rao-Blackwellised 
+[x]Dirichlet 
+[x]Potts 
+[x]Riemann
+[x]LDA 
+[x]ABC 
+[x]BIC 
+[x]AIC 
+[x]CIC
+[x]LIL
+[x]CLT
+[x]M-estimates
+[x]U-statistics
+[x]V-statistics 
+[x]Berry-Esseen 
+[x]Edgeworth
+[x]Gini 
+[x]ROC # as in ROC curve 
+[x]Kaplan-Meier # KM estimator in survival analysis
+[x]Vapnik
+[x]Chervonenkis 
+[x]VC theory (dimension)
+[x]Nelson-Aalen 
+[x]Dvoretzky-Kiefer-Wolfowitz (inequality)
+[x]SVM 
+[x]Pareto 
+[x]KNN (k nearest neighbors) 
+[x]GMM generalized method of moments 
+[x]Wald 
+[x]Cobb-Douglas 
+[x]Zipf
+[x]Lorenz (lorenze curve)
+[x]CART 
+[x]CES constant elasticity of substitution 
+[x]Ricard[o,-ian] David Recardo, economist, Ricardian model 
+[x]Khintchine (unimodality, log-concavity, russian probabilist) 
+[x]Tauberian 
+[x]huber-ized 
+[x]white (whites estimator)
+[x]Cauchy-Schwarz (inequality) 
+[x]Cramer-Rao (lower bound/inequality)
+[x]Samuelson (economist/inequality) 
+[x]Chernoff (bound/inequality/statistician) 
+[x]Kantorovich (russian mathematician/inequality) 
+[x]Bun[yi]akovsky (russian mathematician CS inequality)
+[x]Wielandt (inequality) 
+[x]Ornstein-Uhlenbeck (stochastic process) 
+[x]Brownian (motion) 
+[x]Stein (Charles, stein method) 
+[x]Pitman (estimators) 
+[x]Hotelling (statistician/test T^2) 
+[x]GEE (generalized estimating eqns) 
+
+# the following names will need specific bibtex entries added to the file so that the results of these rejects may be checked empirically. 
+
+[x]Jensen
+[x]Holder
+[x]Chebyshev (Tschebysheff)
+[x]Hwang 
+[x]Vysochanskii-petunin
+[x]Minkowski 
+[x]Borel 
+[x]Tweedie
+[x]Pearson
+[x]Bernoulli
+[x]Gosset
+[x]Student 
+[x]Bonferroni
+[x]Benjamini-Hochberg 
+[x]Galton-Watson
+[x]erdos-Renyi 
+[x]Karamata 
+[x]Uspensky 
+[x]Monge (Monge-Karamata)
+[x]Slepian (inequality 
+[x]Dantzig
+
+# might want to add diacritics 
+
+# NOTES: 
+# 1. To help prevent incorrect edits, e.g. when bayesian occurs in the journal name ``Bayesian Analysis''
+# we may use address restriction to take care of this a la: /Sebastopol/s/CA/California/g
+# which restricts the regex to only change CA to California on lines containing "Sebastopol" as well 
+# can we use this by testing the google bibtex output to make sure the file is formatted to have on the same line the
+# "title={}" command? so we would want e.g. /title/s/Bayesian/{B}ayesian/g 
+#   
+
+# TODO:
+# 1. will need to brainstorm on some more examples 
+# 2. also will want to develop test cases of bibtex 
+# files to run the code on to check output 
+# 3. 
