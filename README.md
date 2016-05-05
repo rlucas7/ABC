@@ -19,4 +19,4 @@ where you may replace test_case1.bib with the path to the file you want to run t
 
 sed -f  bibfix test_case1.bib > output_file_name 
 
-where output_file_name is the file you want to store the output file.
+where output_file_name is the file you want to store the output file. In order to get the output you want you'll need to remove the "/p" after each of the regexes. 
