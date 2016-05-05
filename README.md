@@ -11,3 +11,12 @@ project to establish better coverage results on various related domains of study
 
 Fork requests and collaborations are highly encouraged. I'm happy to share the work on this with other and to specialize to fields of specialization. 
 
+to invoke this project after download at the command line: 
+
+sed -nf  bibfix test_case1.bib | less 
+
+where you may replace test_case1.bib with the path to the file you want to run the correcton codes on and the bibfix file  which contains all of the regex code fixes. Only lines that are edited based on the code will be displayed in the output. Note this does not store the results into another file. To store the output in a different file so you still maintain the original copy before the changes from the script, type: 
+
+sed -f  bibfix test_case1.bib > output_file_name 
+
+where output_file_name is the file you want to store the output file. In order to get the output you want you'll need to remove the "/p" after each of the regexes. 
