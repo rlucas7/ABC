@@ -123,3 +123,50 @@ o# this file contains a list of notes for the common
 # 2. also will want to develop test cases of bibtex 
 # files to run the code on to check output 
 # 3. 
+
+
+# additional capitalizations not yet entered nor having bibtex entries 
+
+[] Lasso (regression with l1 penalty) 
+[] karush-kuhn-tucker (conditions for optimality)
+[]newton 
+[]raftery  (newton rafters method for babes factors)
+[] Gelman -rubin (stat)
+[] Fourier 
+[] AR, MA, ARMA, ARIMA, GARCH  
+[] NMF (non-negative matrix factorization 
+[] LAR (least angle regression) 
+[] SNP (single nucleotide polymorphism) 
+[] SVD, PCA (singular value decomp, princinple comp decop 
+[] SSVS (stochastic search variable selection) 
+[] SCAD (variable selection method, smoothly clipped absolute deviations) 
+[] QTL (quant trait loci) 
+[] MCR-ALS multivariate curve resolution alternating least squares 
+[] ACE (alternating something? Friedman and Breiman papers)
+[] DNA (from gnenetics )
+[] SI, SIR, SUR, SEIR, SEIS, SVIR (model public health susceptible, infected, recovered) 
+[] Rasch (item response theory model) 
+[] Likert (scale )
+[] Langevin (diffusion)
+[] PDE 
+[] Efron (statistician)
+[] New York City 
+[] Connecticut 
+[] Minnesota 
+[] Jeffrey (bayes statistician)
+[] Von Neumann (method rv generation) and
+[] Linnik (distribution) 
+[] Delauney triangulation) 
+[] Bessel (function random variate stock process) 
+[] CFTP 
+[] Hermite (polynomials) 
+[] Delaunay 
+[] Dickman (distribution) 
+[] Devroye-Gyorfi (prolific authors) 
+[] Polya (distribution Polya-Gamma)
+[] Kindermann-Ramage 
+[] Nyqvist theorem 
+[] Stone (theorem) 
+
+# also common countries
+[] Guatemala, Canada, England, London, Madrid
