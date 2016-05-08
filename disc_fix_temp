@@ -1,0 +1,30 @@
+#!/usr/bin/env bash 
+
+# code to scan the bibtex file for discussion papers 
+# which are likely to contain authors 
+# names that will not be picked up by the sed 
+# dictionary I’ve created so far. 
+
+# sed -n /title/s/[Dd]iscussion/Discussion/p test_case1.bib
+# this picks it up and prints it out. 
+# sed -n /title/^.*?\b[Dd]iscussion\b.*?\b[Bb]y\b.*?$/p test_case1.bib
+# but not for all the entries because it cannot grab all caps like 
+# in the test case entry 
+#  title={DISCUSSION OF “LEAST ANGLE REGRESSION” BY EFRON ET AL.},
+#sed -n /[Dd][Ii][Ss][Cc][Uu][Ss][Ss][Ii][Oo][Nn].*[Bb][Yy]/p test_case1.bib | length
+
+# but this one does :) 
+
+# so assign this to lines 
+
+lines=`sed -n /[Dd][Ii][Ss][Cc][Uu][Ss][Ss][Ii][Oo][Nn].*[Bb][Yy]/p test_case1.bib | wc -l `
+# $(($lines>0))
+
+#this returns 1 if there are more than 0 lines and 0 otherwise. 
+
+if [ $(($lines>0)) -gt 0 ]
+    then 
+    echo ‘You have at least one entry with a Rejoinder, or Discussion paper. you may want to manually check these entries because they often contain Author’s names.’
+    else
+    echo ‘It does not appear you have Rejoinder or discussion papers.’ 
+    fi

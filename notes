@@ -130,7 +130,7 @@ o# this file contains a list of notes for the common
 [] Lasso (regression with l1 penalty) 
 [] karush-kuhn-tucker (conditions for optimality)
 []newton 
-[]raftery  (newton rafters method for babes factors)
+[] raftery  (newton rafters method for babes factors)
 [] Gelman -rubin (stat)
 [] Fourier 
 [] AR, MA, ARMA, ARIMA, GARCH  
@@ -167,6 +167,7 @@ o# this file contains a list of notes for the common
 [] Kindermann-Ramage 
 [] Nyqvist theorem 
 [] Stone (theorem) 
+[] Kalman (filter) 
 
 # also common countries
 [] Guatemala, Canada, England, London, Madrid
