@@ -24,7 +24,9 @@ lines=`sed -n /[Dd][Ii][Ss][Cc][Uu][Ss][Ss][Ii][Oo][Nn].*[Bb][Yy]/p $1 | wc -l `
 
 if [ $(($lines>0)) -gt 0 ]
     then 
-    echo ‘You have at least one entry with a Rejoinder, or Discussion paper. you may want to manually check these entries because they often contain Author’s names.’
+    echo You have at least one entry with a Rejoinder, or Discussion paper. You may want to manually check these entries because they often contain Author’s names.
+	echo Some of these potential entries are at lines:
+	echo `grep -n [Dd][Ii][Ss][Cc][Uu][Ss][Ss][Ii][Oo][Nn].*[Bb][Yy] test_case1.bib | awk -F: '{ print $1 }'`
     else
-    echo ‘It does not appear you have Rejoinder or discussion papers.’ 
+    echo It does not appear you have Rejoinder or discussion papers. 
     fi
