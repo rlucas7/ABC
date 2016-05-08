@@ -17,7 +17,7 @@
 
 # so assign this to lines 
 
-lines=`sed -n /[Dd][Ii][Ss][Cc][Uu][Ss][Ss][Ii][Oo][Nn].*[Bb][Yy]/p test_case1.bib | wc -l `
+lines=`sed -n /[Dd][Ii][Ss][Cc][Uu][Ss][Ss][Ii][Oo][Nn].*[Bb][Yy]/p $1 | wc -l `
 # $(($lines>0))
 
 #this returns 1 if there are more than 0 lines and 0 otherwise. 
