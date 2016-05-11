@@ -5,17 +5,15 @@
 # names that will not be picked up by the sed 
 # dictionary I’ve created so far. 
 
-# sed -n /title/s/[Dd]iscussion/Discussion/p test_case1.bib
-# this picks it up and prints it out. 
-# sed -n /title/^.*?\b[Dd]iscussion\b.*?\b[Bb]y\b.*?$/p test_case1.bib
-# but not for all the entries because it cannot grab all caps like 
-# in the test case entry 
-#  title={DISCUSSION OF “LEAST ANGLE REGRESSION” BY EFRON ET AL.},
-#sed -n /[Dd][Ii][Ss][Cc][Uu][Ss][Ss][Ii][Oo][Nn].*[Bb][Yy]/p test_case1.bib | length
+# TODO: drop in the call to the bibfix file. 
+# TODO: sketch out how to modularize the sed calls so
+#       that a user who specializes in bioinformatics can use only what they need.  
+#       to do this we might look into arguments at invocation like —stats —bionif etc 
 
-# but this one does :) 
 
-# so assign this to lines 
+# checks if the words “discussion” and “by” are in the file
+
+# TODO: add in a check for Rejoinder papers as well 
 
 lines=`sed -n /[Dd][Ii][Ss][Cc][Uu][Ss][Ss][Ii][Oo][Nn].*[Bb][Yy]/p $1 | wc -l `
 # $(($lines>0))
