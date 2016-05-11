@@ -128,46 +128,51 @@ o# this file contains a list of notes for the common
 # additional capitalizations not yet entered nor having bibtex entries 
 
 [] Lasso (regression with l1 penalty) 
-[] karush-kuhn-tucker (conditions for optimality)
-[]newton 
-[] raftery  (newton rafters method for babes factors)
-[] Gelman -rubin (stat)
-[] Fourier 
-[] AR, MA, ARMA, ARIMA, GARCH  
-[] NMF (non-negative matrix factorization 
-[] LAR (least angle regression) 
-[] SNP (single nucleotide polymorphism) 
-[] SVD, PCA (singular value decomp, princinple comp decop 
-[] SSVS (stochastic search variable selection) 
-[] SCAD (variable selection method, smoothly clipped absolute deviations) 
-[] QTL (quant trait loci) 
-[] MCR-ALS multivariate curve resolution alternating least squares 
-[] ACE (alternating something? Friedman and Breiman papers)
-[] DNA (from gnenetics )
-[] SI, SIR, SUR, SEIR, SEIS, SVIR (model public health susceptible, infected, recovered) 
-[] Rasch (item response theory model) 
-[] Likert (scale )
-[] Langevin (diffusion)
-[] PDE 
-[] Efron (statistician)
-[] New York City 
-[] Connecticut 
-[] Minnesota 
-[] Jeffrey (bayes statistician)
-[] Von Neumann (method rv generation) and
-[] Linnik (distribution) 
-[] Delauney triangulation) 
-[] Bessel (function random variate stock process) 
-[] CFTP 
-[] Hermite (polynomials) 
-[] Delaunay 
-[] Dickman (distribution) 
-[] Devroye-Gyorfi (prolific authors) 
-[] Polya (distribution Polya-Gamma)
-[] Kindermann-Ramage 
-[] Nyqvist theorem 
-[] Stone (theorem) 
-[] Kalman (filter) 
-
+[x] karush-kuhn-tucker (conditions for optimality)
+[x]newton 
+[x] raftery  (newton rafters method for babes factors)
+[x] Gelman -rubin (stat)
+[x] Fourier 
+[x] AR, MA, ARMA, ARIMA, GARCH  
+[x] NMF (non-negative matrix factorization 
+[x] LAR (least angle regression) 
+[x] SNP (single nucleotide polymorphism) 
+[x] SVD, PCA (singular value decomp, princinple comp decop 
+[x] SSVS (stochastic search variable selection) 
+[x] SCAD (variable selection method, smoothly clipped absolute deviations) 
+[x] QTL (quant trait loci) 
+[x] MCR-ALS multivariate curve resolution alternating least squares 
+[x] ACE (alternating something? Friedman and Breiman papers)
+[x] DNA (from gnenetics )
+[x] SI, SIR, SUR, SEIR, SEIS, SVIR (model public health susceptible, infected, recovered) 
+[x] Rasch (item response theory model) 
+[x] Likert (scale )
+[x] Langevin (diffusion)
+[x] PDE 
+[x] Efron (statistician)
+[x] New York City 
+[x] Connecticut 
+[x] Minnesota 
+[x] Jeffrey (bayes statistician)
+[x] Von Neumann (method rv generation) and
+[x] Linnik (distribution) 
+[x] Delauney triangulation) 
+[x] Bessel (function random variate stock process) 
+[x] CFTP 
+[x] Hermite (polynomials) 
+[x] Dickman (distribution) 
+[x] Devroye-Gyorfi (prolific authors) 
+[x] Polya (distribution Polya-Gamma)
+[x] Kindermann-Ramage 
+[x] Nyqvist theorem 
+[x] Stone (theorem) 
+[x] Kalman (filter) 
+[x] Wigner (matrices, spectral limit dist) 
+[x] Hardy 
+[x] Doob
 # also common countries
-[] Guatemala, Canada, England, London, Madrid
+[x] Guatemala, Canada, England, London, Madrid
+
+# note we may use the global command to hit more than one instance on a line e.g. 
+# /title/s/Minkowski/\{M\}inkowski/pg 
+# hits this globally so multiple instances on one line will be changed 

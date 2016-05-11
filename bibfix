@@ -106,6 +106,37 @@
 /title/s/[Kk][Nn][Nn]/\{kNN\}/ 
 /title/s/[Gg][Mm][Mm]/\{GMM\}/
 /title/s/[Gg][Ee][Ee]/\{GEE\}/
+/title/s/[Pp][Dd][Ee]/\{PDE\}/
+/title/s/[Cc][Ff][Tt][Pp]/\{CFTP\}/ # coupling from the past
+/title/s/[Aa][Cc][Ee]/\{ACE\}/ #breiman-friedman boosting name
+/title/s/[Aa][Ll][Ss]/\{ALS\}/ # alternating least squares 
+/title/s/[mm][Cc][Rr]/\{MCR\}/ # multivariate curve resolution
+/title/s/[Ss][Cc][Aa][Dd]/\{SCAD\}/ # variable selection method
+/title/s/[Ss][Ss][Vv][Ss]/\{SSVS\}/
+/title/s/[Ss][Vv][Dd]/\{SVD\}/
+/title/s/[Pp][Cc][Aa]/\{PCA\}/
+/title/s/[Nn][Mm][Ff]/\{NMF\}/
+/title/s/[Ll][Aa][Rr]/\{LAR\}/
+
+# time series models 
+/title/s/[Aa][Rr][Mm][Aa]/\{ARMA\}/
+/title/s/[Gg][Aa][Rr][Cc][Hh]/\{GARCH\}/
+/title/s/[Aa][Rr]/\{AR\}/
+/title/s/[Mm][Aa]/\{MA\}/
+/title/s/[Aa][Rr][Ii][Mm][Aa]/\{ARIMA\}/
+
+#population health models from diff eqns
+/title/s/[Ss][Vv][Ii][Rr]/\{SVIR\}/
+/title/s/[Ss][Ee][Ii][Ss]/\{SEIS\}/
+/title/s/[Ss][Ee][Ii][Rr]/\{SEIR\}/
+/title/s/[Ss][Uu][Rr]/\{SUR\}/
+/title/s/[Ss][Ii][Rr]/\{SIR\}/
+/title/s/[Ss][Ii]/\{SI\}/
+
+#bioinformatics specific 
+/title/s/[Dd][Nn][Aa]/\{DNA\}
+/title/s/[Qq][Tt][Ll]/\{QTL\}
+/title/s/[Ss][Nn][Pp]/\{SNP\}
 
 # added names need to check against bibtex file 
 
@@ -116,7 +147,10 @@
 /title/s/[Hh]wang/\{H\}wang/ 
 /title/s/[Vv]ysochanskii/\{V\}ysochanskii/
 /title/s/[Pp]etunin/\{P\}etunin/
-/title/s/[mM]inkowski/\{M\}inkowski/
+/title/s/[mM]inkowski/\{M\}inkowski/g 
+
+# the 'g' makes the action global i.e. hit multiple instances on the line 
+
 /title/s/[Bb]orel/\{B\}orel/
 /title/s/[Tt]weedie/\{T\}weedie/
 /title/s/[Pp]earson/\{P\}earson/
@@ -156,10 +190,45 @@
 /title/s/[Ww]ilk/\{W\}ilk/
 /title/s/[Ss]hapiro/\{S\}hapiro/
 /title/s/[Hh]amilton/\{H\}amilton/
+/title/s/[Kk]arush/\K\}arush/
+/title/s/[Kk]uhn/\{K\}uhn/
+/title/s/[Tt]ucker/\{T\}ucker/
+/title/s/[Nn]ewton/\{N\}ewton/
+/title/s/[Rr]aftery/\{R\}aftery/
+/title/s/[Gg]elman/\{G\}elman/
+/title/s/[Rr]ubin/\{R\}ubin/
+/title/s/[Ff]ourier/\{F\}ourier/
+/title/s/[Rr]asch/\{R\}asch/
+/title/s/[Ll]ikert/\{L\}ikert/
+/title/s/[Ll]angevin/\{L\}angevin/
+/title/s/[Ee]fron/\{E\}fron/
+/title/s/[Jj]effreys/\{J\}effreys/
+/title/s/[Nn]eumann/\{N\}eumann/
+/title/s/[Ll]innik/\{L\}innik/
+/title/s/[Dd]elaunay/\{D\}elaunay/
+/title/s/[Bb]essel/\{B\}essel/
+/title/s/[Hh]ermite/\{H\}ermite/
+/title/s/[Dd]ickman/\{D\}ickman/
+/title/s/[Dd]evroye/\{D\}evroye/
+/title/s/[Gg]yorfi/\{G\}yorfi/
+/title/s/[Pp]olya/\{P\}olya/
+/title/s/[Kk]indermann/\{K\}indermann/
+/title/s/[Rr]amage/\{R\}amage/
+/title/s/[Nn]yqvist/\{N\}yqvist/
+/title/s/[Ss]tone/\{S\}tone/
+/title/s/[Kk]alman/\{K\}alman/
+/title/s/[Ww]igner/\{W\}igner/
+/title/s/[Hh]ardy/\{H\}ardy/ 
+/title/s/[Dd]oob/\{D\}oob/
+ 
+#diacritics 
 
+/title/s/[Cc]ram{\\\\\'e}r/\{C\}ram{\\\\\’e}r/p
+/title/s/[Hh]{\\\\\”o}lder/\{H\}{\\\\\”o}lder/p
+/title/s/[Rr]{\\\\\’e}nyi/\{R\}{\\\\\’e}nyi/p
 
-#/title/s/[Cc]ram\{\\’e\}r/{C\}ram\{\’e\}r/
-
+#/title/s/[Gg]yorfi/\{G\}yorfi/
+#I think we need umlaut over o for Gyorfi no? 
 
 #also may want to look at scraping names from the website 
 #http://www.york.ac.uk/depts/maths/histstat/eople
@@ -176,10 +245,24 @@
 /title/s/[Zz]-[Ss]tatistic/\{Z\}-Statistic/
 /title/s/[Zz] [Ss]tatistic/\{Z\} Statistics/ 
   
-# countries and major cities 
-/title/s/[Mm]adrid/\{M\}adrid/
+# countries 
 /title/s/[Ss]pain/\{S\}pain/
 /title/s/ US / \{US\} /
+/title/s/[Gg]uatemala/\{G\}uatemala/
+/title/s/[Cc]anada/\{C\}anada/
+/title/s/[Ee]ngland/\{E\}ngland/
+
+# major cities 
+/title/s/[Mm]adrid/\{M\}adrid/
+/title/s/[Ll]ondon/\{L\}ondon/
+/title/s/[Nn]ew [Yy]ork [Cc]ity/\{N\}ew \{Y\}ork \{C\}ity/
+/title/s/[Ll]ondon/\{L\}ondon/
+
+# states and provinces 
+/title/s/[Cc]onnecticut/\{C\}onnecticut/
+/title/s/[Mm]innesota/\{M\}innesota/
+
+
 
 # punctuation rules 
 
